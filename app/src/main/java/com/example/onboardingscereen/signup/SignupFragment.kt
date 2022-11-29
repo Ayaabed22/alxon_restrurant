@@ -67,7 +67,7 @@ class SignupFragment : Fragment() {
                     ) {
                         if (response.isSuccessful) {
                             Log.e(TAG, "onResponse: " + response.body())
-                             val sharedPreferences = context!!.getSharedPreferences("app name", Context.MODE_PRIVATE)
+                             val sharedPreferences = context!!.getSharedPreferences("app_name", Context.MODE_PRIVATE)
                             sharedPreferences.edit().putString("token", "bearer ${response.body()!!.token}").apply()
                             Log.i(TAG, "onResponse: "+ sharedPreferences.edit().putString("token", "bearer ${response.body()!!.token}").apply())
 

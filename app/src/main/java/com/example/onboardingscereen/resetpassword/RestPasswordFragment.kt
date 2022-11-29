@@ -44,7 +44,7 @@ class RestPasswordFragment : Fragment() {
 
 
         var sharedPreferences =
-            requireContext().getSharedPreferences("app name", Context.MODE_PRIVATE)
+            requireContext().getSharedPreferences("app_name", Context.MODE_PRIVATE)
 
 
         buttonSave?.setOnClickListener {

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".verifyemail.CheckOtpForEmail">
 
     <ImageView
@@ -27,6 +27,7 @@
         android:layout_marginEnd="125dp"
         android:src="@drawable/logo"
         tools:ignore="ContentDescription" />
+
     <TextView
         android:layout_width="170dp"
         android:layout_height="wrap_content"
@@ -71,61 +72,6 @@ To armannijum@gmail.com"
         app:lineWidth="2dp"
         app:viewType="rectangle" />
 
-<!--    <com.goodiebag.pinview.Pinview-->
-<!--        android:id="@+id/pinview"-->
-<!--        app:pinBackground="@drawable/example_drawable"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        app:pinWidth="40dp"-->
-<!--        app:pinHeight="40dp"-->
-<!--        app:pinLength="4"-->
-<!--        app:cursorVisible="false"-->
-<!--        app:forceKeyboard="true"-->
-<!--        app:hint="0"-->
-<!--        app:inputType="text"-->
-<!--        app:password="false"/>-->
-
-<!--    <EditText-->
-<!--        android:layout_width="60dp"-->
-<!--        android:layout_height="60dp"-->
-<!--        android:layout_marginStart="43dp"-->
-<!--        android:layout_marginTop="350dp"-->
-<!--        android:background="@drawable/buttonview"-->
-<!--        android:backgroundTint="@color/white"-->
-<!--        android:gravity="center"-->
-<!--        app:backgroundTint="@color/gray" />-->
-
-<!--    <EditText-->
-<!--        android:gravity="center"-->
-<!--        android:layout_width="60dp"-->
-<!--        android:layout_height="60dp"-->
-<!--        android:layout_marginStart="115dp"-->
-<!--        android:layout_marginTop="350dp"-->
-<!--        android:background="@drawable/buttonview"-->
-<!--        android:backgroundTint="@color/white"-->
-<!--        app:backgroundTint="@color/gray" />-->
-
-<!--    <EditText-->
-<!--        android:gravity="center"-->
-<!--        android:layout_width="60dp"-->
-<!--        android:layout_height="60dp"-->
-<!--        android:layout_marginStart="185dp"-->
-<!--        android:layout_marginTop="350dp"-->
-<!--        android:background="@drawable/buttonview"-->
-<!--        android:backgroundTint="@color/white"-->
-<!--        app:backgroundTint="@color/gray" />-->
-
-<!--    <EditText-->
-<!--        android:gravity="center"-->
-<!--        android:layout_width="60dp"-->
-<!--        android:layout_height="60dp"-->
-<!--        android:layout_alignParentEnd="true"-->
-<!--        android:layout_marginTop="350dp"-->
-<!--        android:layout_marginEnd="43dp"-->
-<!--        android:background="@drawable/buttonview"-->
-<!--        android:backgroundTint="@color/white"-->
-<!--        app:backgroundTint="@color/gray" />-->
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -138,6 +84,7 @@ To armannijum@gmail.com"
         app:backgroundTint="@color/gray" />
 
     <TextView
+        android:id="@+id/textView_resend"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -155,17 +102,14 @@ To armannijum@gmail.com"
         android:layout_marginStart="43dp"
         android:layout_marginTop="550dp"
         android:layout_marginEnd="43dp"
-        app:backgroundTint="@color/white"
-        app:cornerRadius="10dp"
-        app:strokeWidth="1dp"
         android:padding="15dp"
-        app:strokeColor="@color/purple_200"
         android:text="Countinue"
         android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
         android:textColor="@color/purple_200"
-         />
-
-
+        app:backgroundTint="@color/white"
+        app:cornerRadius="10dp"
+        app:strokeColor="@color/purple_200"
+        app:strokeWidth="1dp" />
 
 
 </RelativeLayout>

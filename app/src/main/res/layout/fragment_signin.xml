@@ -95,14 +95,6 @@
         android:text="Forget password?"
         android:textSize="15sp" />
 
-<!--    <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton-->
-<!--        android:id="@+id/btn_id"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:background="@drawable/circular_border_shape"-->
-<!--        app:spinning_bar_color="#FFF"-->
-<!--        app:spinning_bar_padding="6dp"-->
-<!--        app:spinning_bar_width="4dp" />-->
     <com.google.android.material.button.MaterialButton
         android:id="@+id/buttonSignin"
         android:layout_width="match_parent"
